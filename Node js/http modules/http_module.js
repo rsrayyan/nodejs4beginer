@@ -8,6 +8,7 @@ const server = http.createServer((req,res)=>{
         res.end('here is yours short history')
     }
     res.write("welcome to my home page");
+    res.write("rayyan is here");
     res.end()
 });
 
